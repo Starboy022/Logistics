@@ -1,7 +1,7 @@
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">
    <soapenv:Header/>
    <soapenv:Body>
-      <tem:PostShipment_CSBV>
+      <tem:PostShipment_CSBIV_Cargo>
          <!--Optional:-->
          <tem:Shipmentpurpose>?</tem:Shipmentpurpose>
          <!--Optional:-->
@@ -121,13 +121,7 @@
          <!--Optional:-->
          <tem:BillToPhoneNumber>?</tem:BillToPhoneNumber>
          <!--Optional:-->
-         <tem:IECNo>?</tem:IECNo>
-         <!--Optional:-->
          <tem:TermsOfTrade>?</tem:TermsOfTrade>
-         <!--Optional:-->
-         <tem:Usingecommerce>?</tem:Usingecommerce>
-         <!--Optional:-->
-         <tem:IsUnderMEISScheme>?</tem:IsUnderMEISScheme>
          <!--Optional:-->
          <tem:GSTIN>?</tem:GSTIN>
          <!--Optional:-->
@@ -142,8 +136,6 @@
          <tem:IsUsingIGST>?</tem:IsUsingIGST>
          <!--Optional:-->
          <tem:UsingBondorUT>?</tem:UsingBondorUT>
-         <!--Optional:-->
-         <tem:BankADCode>?</tem:BankADCode>
          <!--Optional:-->
          <tem:Exporter_CompanyName>?</tem:Exporter_CompanyName>
          <!--Optional:-->
@@ -193,10 +185,6 @@
          <!--Optional:-->
          <tem:SerialNumber>?</tem:SerialNumber>
          <!--Optional:-->
-         <tem:FOBValue>?</tem:FOBValue>
-         <!--Optional:-->
-         <tem:Discount>?</tem:Discount>
-         <!--Optional:-->
          <tem:Description>?</tem:Description>
          <!--Optional:-->
          <tem:Qty>?</tem:Qty>
@@ -207,19 +195,11 @@
          <!--Optional:-->
          <tem:CommodityCode>?</tem:CommodityCode>
          <!--Optional:-->
-         <tem:CommodityType>?</tem:CommodityType>
-         <!--Optional:-->
          <tem:InvoiceRatePerUnit>?</tem:InvoiceRatePerUnit>
          <!--Optional:-->
          <tem:ShipPieceUOM>?</tem:ShipPieceUOM>
          <!--Optional:-->
-         <tem:ShipPieceCESS>?</tem:ShipPieceCESS>
-         <!--Optional:-->
-         <tem:ShipPieceIGSTPercentage>?</tem:ShipPieceIGSTPercentage>
-         <!--Optional:-->
          <tem:ShipPieceIGST>?</tem:ShipPieceIGST>
-         <!--Optional:-->
-         <tem:ShipPieceTaxableValue>?</tem:ShipPieceTaxableValue>
          <!--Optional:-->
          <tem:FreightCharge>?</tem:FreightCharge>
          <!--Optional:-->
@@ -227,11 +207,9 @@
          <!--Optional:-->
          <tem:TotalIGST>?</tem:TotalIGST>
          <!--Optional:-->
-         <tem:CessCharge>?</tem:CessCharge>
-         <!--Optional:-->
-         <tem:ReverseCharge>?</tem:ReverseCharge>
-         <!--Optional:-->
          <tem:PayerGSTVAT>?</tem:PayerGSTVAT>
+         <!--Optional:-->
+         <tem:AddDeclText1>?</tem:AddDeclText1>
          <!--Optional:-->
          <tem:IsResponseRequired>?</tem:IsResponseRequired>
          <!--Optional:-->
@@ -241,35 +219,15 @@
          <!--Optional:-->
          <tem:InsuredAmount>?</tem:InsuredAmount>
          <!--Optional:-->
-         <tem:Invoicevalueinword>?</tem:Invoicevalueinword>
-         <!--Optional:-->
-         <tem:Placeofsupply>?</tem:Placeofsupply>
-         <!--Optional:-->
-         <tem:dateofsupply>?</tem:dateofsupply>
-         <!--Optional:-->
-         <tem:Shipperstatecode>?</tem:Shipperstatecode>
-         <!--Optional:-->
-         <tem:ShipperstateName>?</tem:ShipperstateName>
-         <!--Optional:-->
          <tem:isIndemnityClauseRead>?</tem:isIndemnityClauseRead>
          <!--Optional:-->
-         <tem:ACCOUNT_NO>?</tem:ACCOUNT_NO>
-         <!--Optional:-->
-         <tem:NFEI_FLAG>?</tem:NFEI_FLAG>
-         <!--Optional:-->
-         <tem:GOV_NONGOV_TYPE>?</tem:GOV_NONGOV_TYPE>
+         <tem:DistanceInKM>?</tem:DistanceInKM>
          <!--Optional:-->
          <tem:Destination_Duty_VAT_Charges>?</tem:Destination_Duty_VAT_Charges>
          <!--Optional:-->
          <tem:CustomerBarcodeCode>?</tem:CustomerBarcodeCode>
          <!--Optional:-->
          <tem:CustomerBarcodeText>?</tem:CustomerBarcodeText>
-         <!--Optional:-->
-         <tem:plt_signature>?</tem:plt_signature>
-         <!--Optional:-->
-         <tem:DutyAccountNumber>?</tem:DutyAccountNumber>
-         <!--Optional:-->
-         <tem:plt_signature_Base64>?</tem:plt_signature_Base64>
-      </tem:PostShipment_CSBV>
+      </tem:PostShipment_CSBIV_Cargo>
    </soapenv:Body>
 </soapenv:Envelope>
